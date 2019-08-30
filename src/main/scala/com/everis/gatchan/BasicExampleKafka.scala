@@ -73,7 +73,7 @@ object BasicExampleKafka  extends App {
     mezcla2.selectExpr("CAST (Nueva as STRING) as value")
       .write
       .format("kafka")
-      .option("kafka.bootstrap.servers", "kyber:9092")
+      .option("kafka.bootstrap.servers", "localhost:9092")
       .option("topic", "topic_spline")
       .save()
 
