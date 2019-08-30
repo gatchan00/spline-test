@@ -12,6 +12,7 @@ Both clases expect a config file for the process(like the one provided in the re
 Both mongo and kafka are meant to be at localhost. Kafka broker is hardcoded and mongo url is located at spline config file.
 
 #How to launch spline UI
+
 Download it from https://absaoss.github.io/spline/
 
 Remember to change the mongo url
